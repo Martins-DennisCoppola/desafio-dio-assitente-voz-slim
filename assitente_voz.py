@@ -2,9 +2,9 @@ import openai
 from gtts import gTTS
 import os
 
-# Configuração da API (Deixamos pronto para o usuário inserir sua própria chave)
-# No GitHub, por segurança, não subimos a chave real.
-api_key = "SUA_CHAVE_OPENAI_AQUI"
+# Configuração da API (Deixei pronto para o usuário inserir sua própria chave)
+# No GitHub, por segurança, não inseri a chave real.
+api_key = "UMA_CHAVE_OPENAI_AQUI"
 client = openai.OpenAI(api_key=api_key)
 
 def pipeline_assistente_voz(caminho_audio):
